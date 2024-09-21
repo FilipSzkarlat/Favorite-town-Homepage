@@ -1,0 +1,83 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: #c7f9cc;
+  font-size: 1.2em;
+  font-family: "Libre Baskerville", serif;
+}
+
+/* HERO SECTION */
+.hero-container {
+  background-image: url(images/gran-canaria.avif);
+  background-size: cover;
+  height: 100vh;
+  text-shadow: 0 0 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-container h1 {
+  position: relative;
+  top: -100px;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.hero-description h2 {
+  border-bottom: 3px solid #38a3a5;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.hero-description {
+  position: relative;
+  bottom: -300px;
+  left: 300px;
+  width: 30%;
+  align-self: center;
+}
+
+/* ACTIVITIES SECTION */
+
+.activities-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #38a3a5;
+  justify-content: center;
+  align-items: center;
+}
+
+.activities-container img {
+  width: 400px;
+  border-radius: 10%;
+}
+
+.explore,
+.taste,
+.sport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  gap: 75px;
+}

@@ -1,13 +1,3 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +25,7 @@ body {
 
 .hero-container h1 {
   position: relative;
-  top: -100px;
+  top: -60px;
 }
 
 .title {
@@ -50,7 +40,7 @@ body {
 
 .hero-description {
   position: relative;
-  bottom: -300px;
+  bottom: -260px;
   left: 300px;
   width: 30%;
   align-self: center;
@@ -80,4 +70,56 @@ body {
   justify-content: center;
   width: 60%;
   gap: 75px;
+}
+
+/* GUIDE SECTION */
+
+.guide-container {
+  background-color: #22577a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-card {
+  background-color: #57cc99;
+  width: 30%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+  box-shadow: 7px 7px 5px #38a3a5;
+}
+
+.guide-container img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.guide-description {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.guide-description p {
+  font-size: 0.8em;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  height: 20px;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-size: 1.3em;
 }

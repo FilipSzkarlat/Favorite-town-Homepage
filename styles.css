@@ -190,3 +190,47 @@ a {
 a:hover {
   font-size: 1.3em;
 }
+
+.likes-container {
+  background-color: black;
+  padding: 30px;
+  border-radius: 50px;
+  opacity: 0.6;
+  justify-self: end;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.likes-container h3 {
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-size: 2em;
+}
+
+.like-btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: inherit;
+  background-color: transparent;
+  text-shadow: 0 0 1px black;
+  font-size: 1em;
+  border: 2px solid #c7f9cc;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.5;
+  transform: scale(1.1);
+}
+
+.thank-you {
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}

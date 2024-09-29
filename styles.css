@@ -34,7 +34,6 @@ body {
 
 .hero-description h2 {
   border-bottom: 3px solid #38a3a5;
-  width: 65%;
   margin: 0 auto;
 }
 
@@ -55,6 +54,11 @@ body {
   background-color: #38a3a5;
   justify-content: center;
   align-items: center;
+  gap: 40px;
+}
+
+.activities-container p {
+  min-width: 300px;
 }
 
 .activities-container img {
@@ -91,8 +95,8 @@ body {
 }
 
 .box {
-  width: 300px;
-  height: 300px;
+  width: 20vw;
+  height: 30vh;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -149,7 +153,6 @@ body {
 
 .guide-card {
   background-color: #57cc99;
-  width: 30%;
   margin: 50px;
   display: flex;
   justify-content: center;
@@ -168,6 +171,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 300px;
 }
 
 .guide-description p {

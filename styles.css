@@ -39,9 +39,9 @@ body {
 }
 
 .hero-description {
-  position: relative;
-  bottom: -260px;
-  left: 300px;
+  position: absolute;
+  bottom: 8%;
+  right: 10vw;
   width: 30%;
   align-self: center;
 }
